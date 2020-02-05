@@ -8,7 +8,7 @@
     else {
       $username=$_POST['username'];
       $password=$_POST['password'];
-      $conn = mysqli_connect("localhost","root","cutepanda","art_gallery");
+      $conn = mysqli_connect("localhost","root","*********","art_gallery");
       if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
       }
