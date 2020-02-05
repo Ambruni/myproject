@@ -31,7 +31,7 @@
 
 <!-- VIEW CUSTOMER AND ARTIST -->
 <?php
-      $conn = mysqli_connect("localhost","root","cutepanda","art_gallery");
+      $conn = mysqli_connect("localhost","root","*********","art_gallery");
       if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
       }
@@ -64,7 +64,7 @@
     ?>
 
     <?php
-      $conn = mysqli_connect("localhost","root","cutepanda","art_gallery");
+      $conn = mysqli_connect("localhost","root","*********","art_gallery");
       if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
       }
